@@ -1,0 +1,29 @@
+{
+  "name": "publication-server-koa",
+  "version": "1.0.0",
+  "description": "Koa Publication Server",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./dest/js/app.js",
+    "start-docker": "node ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Mitchell",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/koa": "^2.0.40",
+    "@types/koa-router": "^7.0.24",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-typescript": "^3.2.3",
+    "merge2": "^1.2.0",
+    "typescript": "^2.6.1"
+  },
+  "dependencies": {
+    "graceful-fs": "^4.1.11",
+    "koa": "^2.4.1",
+    "koa-router": "^7.2.1",
+    "minimatch": "^3.0.4"
+  }
+}
