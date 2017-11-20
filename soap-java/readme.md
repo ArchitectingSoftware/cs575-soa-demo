@@ -38,6 +38,8 @@ To get all publications:
 </x:Envelope>
 ```
 
+If you use `curl` or some other testing tool make sure you set a content type header - `Content-Type:text/xml`
+
 To get the WSDL document, you can go to this endpoint <http://localhost:8080/ws/publications.wsdl>.  Note you might need to change the default port number.
 
 To execute these requests, via HTTP or CURL, Post to the endpoint <http://localhost:8080/ws/>
