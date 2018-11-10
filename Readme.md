@@ -1,4 +1,4 @@
-###CS575 Web Service Sample Files
+### CS575 Web Service Sample Files
 
 This repository has multiple copies of a service, each done in a slightly diffent architecture style, and in a different programming language.  
 
