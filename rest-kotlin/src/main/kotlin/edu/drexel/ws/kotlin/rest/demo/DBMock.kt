@@ -20,6 +20,7 @@ object DBMock {
 
             val jsonDB = ClassPathResource("pubs.json").file
             val pubList = mapper.readValue<List<Publication>>(jsonDB)
+
             return pubList.associate { p -> Pair(p.id, p)}
         }
 

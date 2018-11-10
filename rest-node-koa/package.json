@@ -4,6 +4,7 @@
   "description": "Koa Publication Server",
   "main": "app.js",
   "scripts": {
+    "watch-server": "nodemon --watch 'src/**/*' -e ts,tsx --exec ts-node src/app.ts",
     "start": "node ./dest/js/app.js",
     "start-docker": "node ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,19 +12,19 @@
   "author": "Brian Mitchell",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@types/koa": "^2.0.40",
-    "@types/koa-router": "^7.0.24",
-    "gulp": "^3.9.1",
-    "gulp-nodemon": "^2.2.1",
-    "gulp-sourcemaps": "^2.6.1",
-    "gulp-typescript": "^3.2.3",
-    "merge2": "^1.2.0",
-    "typescript": "^2.6.1"
+    "@types/koa": "^2.0.46",
+    "@types/koa-bodyparser": "^5.0.1",
+    "@types/koa-router": "^7.0.33",
+    "@types/node": "^10.12.5",
+    "nodemon": "^1.18.6",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6"
   },
   "dependencies": {
-    "graceful-fs": "^4.1.11",
-    "koa": "^2.4.1",
-    "koa-router": "^7.2.1",
-    "minimatch": "^3.0.4"
+    "@koa/cors": "^2.2.2",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0"
   }
 }

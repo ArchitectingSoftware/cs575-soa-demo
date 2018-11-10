@@ -19,7 +19,7 @@ router.get('/publications', async http => {
 
 router.get('/publications/:id', async http => {
     let id = http.params['id']
-    http.response.body = http.params['id']
+    //http.response.body = http.params['id']
 
     let paper = PaperDB.find(p => p.id == id)
     if (paper)
