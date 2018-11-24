@@ -1,15 +1,10 @@
 package main
 
-
 import (
 	"soa/server"
 )
 
-
-func main(){
+func main() {
 
 	server.Boot()
 }
-
-
-
