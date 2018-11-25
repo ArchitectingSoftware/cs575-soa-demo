@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package pubsrpc;
+option go_package = "pubsrpc";
+option java_package = "pubsrpc";
+option java_outer_classname = "PubsRpcProto";
+
+
+message PubRequest{
+    int32 pid      = 1;
+}
+
+message Pubs {
+    int32   id        =1;
+    string  title     =2;
+    string  cite      =3;
+    string  link      =4;
+    string  slides    =5;
+    string  abstract  =6;
+}
+
+message PubsResponse{
+    repeated Pubs pubs = 1;
+}
+
+// The greeting service definition.
+service PubService {
+    // Sends a greeting
+    rpc GetPub (PubRequest) returns (PubsResponse) {}
+}
