@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package pubs;
+option go_package = "pubs";
+
+message PubRequest{
+  int32 PubId      = 1;
+}
+
+message Pub {
+  int32   id        =1;
+  string  title     =2;
+  string  cite      =3;
+	string  link      =4;
+	string  slides    =5;
+	string  abstract  =6;
+}
+
+message PubsResponse{
+  repeated Pub Pubs = 1;
+}
+
+message PubResponse{
+  Pub Pub = 1;
+}
+
+// The greeting service definition.
+service PubService {
+  // Sends a greeting
+  rpc GetPub (PubRequest) returns (PubResponse) {}
+}
