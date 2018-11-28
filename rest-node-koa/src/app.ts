@@ -22,8 +22,10 @@ router.get('/publications/:id', async http => {
     //http.response.body = http.params['id']
 
     let paper = PaperDB.find(p => p.id == id)
-    if (paper)
+    if (paper) {
+        //delete paper.slides
         http.response.body = paper
+    }
     else 
         http.response.ctx.throw(404)
 })

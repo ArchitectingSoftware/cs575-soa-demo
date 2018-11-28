@@ -20,7 +20,6 @@ const typeDefs = gql`
     abstract: String
   }
   type Query {
-    hello: String
     pub( pid: Int): PubResponse
     pubs: [PubResponse]
     pquery (qry: String): [PubResponse]
@@ -30,7 +29,6 @@ const typeDefs = gql`
 // Provide resolver functions for your schema fields
 const resolvers = {
   Query: {
-    hello: () => 'Hello world!',
     pub: async (_,{pid}) => {
       //let paper: IPubs[] = pubsC.find({id:pid})
       let paper: IPubs[] = pubsC.findOne({id:pid})

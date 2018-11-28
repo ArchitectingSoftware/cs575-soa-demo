@@ -7,6 +7,9 @@ message PubRequest{
   int32 PubId      = 1;
 }
 
+message EmptyRequest{
+}
+
 message Pub {
   int32   id        =1;
   string  title     =2;
@@ -28,4 +31,6 @@ message PubResponse{
 service PubService {
   // Sends a greeting
   rpc GetPub (PubRequest) returns (PubResponse) {}
+  rpc GetAllPubs(EmptyRequest) returns (PubsResponse) {}
+  rpc StreamPubs(EmptyRequest) returns (stream Pub) {}
 }

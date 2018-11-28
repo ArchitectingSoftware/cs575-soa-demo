@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a07c6aa-b346-42e8-b6dd-8a58a5a5f213" name="Default Changelist" comment="" />
+    <list default="true" id="7a07c6aa-b346-42e8-b6dd-8a58a5a5f213" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../graphql-typescript/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../graphql-typescript/src/server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go/pkg/darwin_amd64/pubs-proto.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../go/pkg/darwin_amd64/pubs-proto.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go/src/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../go/src/client/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go/src/pubs-proto/pubs.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../go/src/pubs-proto/pubs.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go/src/pubs-proto/pubs.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../../go/src/pubs-proto/pubs.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go/src/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../go/src/server/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rest-node-koa/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rest-node-koa/src/app.ts" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,12 +65,12 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="3" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="20" selection-end-column="3" />
+            <state relative-caret-position="210">
+              <caret line="20" column="3" selection-start-line="17" selection-start-column="2" selection-end-line="20" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -131,29 +144,24 @@
       <option name="presentableId" value="Default" />
       <updated>1543076570639</updated>
       <workItem from="1543076574393" duration="1157000" />
+      <workItem from="1543264667986" duration="548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1157000" />
+    <option name="totallyTimeSpent" value="1705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="19" y="42" width="1400" height="786" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.3299712" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -161,17 +169,24 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="sbt" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info active="true" anchor="right" id="Gradle" visible="true" weight="0.3298969" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.3299712" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="sbt" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info active="true" anchor="right" id="Gradle" order="7" visible="true" weight="0.3298969" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,8 +195,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="20" selection-end-column="3" />
+        <state relative-caret-position="210">
+          <caret line="20" column="3" selection-start-line="17" selection-start-column="2" selection-end-line="20" selection-end-column="3" />
         </state>
       </provider>
     </entry>
