@@ -5,6 +5,7 @@ import org.json4s.jackson._
 import org.json4s.JsonDSL._
 import org.json4s.jackson.JsonMethods._
 import org.json4s.jackson.Serialization._
+import scala.language.postfixOps
 
 
 object DBMock {

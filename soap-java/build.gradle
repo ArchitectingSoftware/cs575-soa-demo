@@ -1,23 +1,21 @@
 buildscript {
 	ext {
-		springBootVersion = '2.1.0.RELEASE'
         wsdlVersion = '1.6.3'
-        jaxbVersion = '2.3.1'
+        jaxbVersion = '2.3.2'
 	}
 	repositories {
 		mavenCentral()
 		maven { url "https://repo.spring.io/snapshot" }
 		maven { url "https://repo.spring.io/milestone" }
 	}
-	dependencies {
-		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
-	}
 }
 
-apply plugin: 'java'
-apply plugin: 'eclipse'
-apply plugin: 'org.springframework.boot'
-apply plugin: 'io.spring.dependency-management'
+plugins {
+    id 'org.springframework.boot' version '2.2.1.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+    id 'java'
+}
+
 
 group = 'edu.drexel.ws.soap'
 version = '0.0.1-SNAPSHOT'
@@ -76,9 +74,19 @@ configurations {
     jaxb
 }
 
+bootJar {
+    baseName = 'webpubs'
+    version =  '0.1.0'
+    from genJaxb.classesDir
+}
+
 dependencies {
+
 	compile('org.springframework.boot:spring-boot-starter-web-services')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+    compile('javax.xml.bind:jaxb-api:2.3.1')
+    compile('javax.activation:activation:1.1')
+    compile('org.glassfish.jaxb:jaxb-runtime:2.3.1')
 	compile("wsdl4j:wsdl4j:${wsdlVersion}")
 	jaxb("org.glassfish.jaxb:jaxb-xjc:${jaxbVersion}")
 	compile(files(genJaxb.classesDir).builtBy(genJaxb))

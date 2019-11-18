@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a07c6aa-b346-42e8-b6dd-8a58a5a5f213" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../graphql-typescript/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../graphql-typescript/src/server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../go/pkg/darwin_amd64/pubs-proto.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../go/pkg/darwin_amd64/pubs-proto.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../go/src/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../go/src/client/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../go/src/pubs-proto/pubs.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../go/src/pubs-proto/pubs.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../go/src/pubs-proto/pubs.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../../go/src/pubs-proto/pubs.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../go/src/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../go/src/server/server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../rest-node-koa/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rest-node-koa/src/app.ts" afterDir="false" />
-    </list>
+    <list default="true" id="7a07c6aa-b346-42e8-b6dd-8a58a5a5f213" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />

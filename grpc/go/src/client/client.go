@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"io"
 	"log"
-	"pubs-proto"
 	"time"
 
+	pubs "architectingsoftware.com/grpc/pubs/src/pubs-proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )
@@ -47,7 +47,7 @@ func main() {
 func doGetPub(c pubs.PubServiceClient) {
 	fmt.Println("Starting to query a publication...")
 	req := &pubs.PubRequest{
-		PubId: 5,
+		PubId: 9,
 	}
 
 	res, err := c.GetPub(context.Background(), req)
