@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@koa/cors": "^3.0.0",
-    "apollo-server-core": "^2.9.9",
+    "apollo-server-core": "^2.14.2",
     "apollo-server-koa": "^2.9.9",
     "graphql": "^14.5.8",
     "koa-bodyparser": "^4.2.1",
